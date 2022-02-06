@@ -1,0 +1,16 @@
+ /* global style */
+ :root{
+     --main-color:#45B2F8;
+     --s-background:#ECECEC;
+     --p-color:#D6ECEC;
+ }
+
+ *{
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+ }
+
+ body{
+     font-family: "Cairo", sans-serif;
+ }

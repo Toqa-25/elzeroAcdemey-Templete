@@ -1,0 +1,39 @@
+ /*
+  - container
+  -section head
+
+ */
+ /* global style */
+ :root{
+     --main-color:#45B2F8;
+     --s-background:#ECECEC;
+     --p-color:#D6ECEC;
+ }
+
+ *{
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+ }
+
+ body{
+     font-family: "Cairo", sans-serif;
+ }
+ .container{
+      width: 80%;
+      margin:0 auto;
+      padding: 30px 0;
+
+ }
+ .link-none{
+     text-decoration: none;
+ }
+ .unlist{
+     list-style: none;
+ }
+
+ /* header style */
+.header-content{
+    display: flex;
+    justify-content: space-between;
+}
